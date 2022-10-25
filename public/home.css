@@ -32,9 +32,13 @@ nav{
     flex-flow: wrap;
     justify-content: space-around;
 }
+.active {
+    background-color:#ED6954;
+    color: white;
+  }
 
 .title {
-    font-size: 4em;
+    font-size: 3.5em;
     font-family: 'Marcellus';
     color: #ED6954;
     padding: 30px;
