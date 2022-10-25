@@ -153,13 +153,16 @@ footer {
 
 .about, .works, .influences {
     display: flex;
-    margin: 80px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
 }
 .about > p, .works > p , .influences > p {
   margin: 50px;  
 }
 .works > img {
-    width: 500px;
+    width: 400px;
 }
 
 .pic-display {
