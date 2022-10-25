@@ -1,3 +1,178 @@
+@font-face {
+    font-family:'Marcellus';
+    src: url(/fonts/Marcellus/Marcellus-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:'Cormorant Garamond';
+    src: url(/fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf);
+  }
+
 * {
-    background-color: blanchedalmond;
+    margin: auto 0;
+    padding: 0;
+}
+
+article > p {
+    font-family: 'Cormorant Garamond';
+    font-size: 1.7em;
+    text-align: justify;
+}
+
+nav{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 4em;
+    font-family: 'Marcellus';
+    color: #ED6954;
+    padding: 30px;
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+.menu > li {
+    font-family: 'Cormorant Garamond';
+    font-size: 1.5em;
+    padding: 30px;
+}
+.menu > li:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main > p {
+    font-family: 'Cormorant Garamond';
+    font-size: 4em;
+    font-style: italic;
+    line-height: 2.5cm;
+    margin-right: 150px;
+    padding: 50px;
+}
+.portrait {
+    height: 600px;
+    margin-left: 150px;
+    padding: 50px;
+
+}
+
+article {
+    margin: 60px;
+}
+footer {
+    height: 120px;
+    font-family: 'Cormorant Garamond';
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: #ED6954;
+    display: flex;
+}
+@font-face {
+    font-family:'Marcellus';
+    src: url(/fonts/Marcellus/Marcellus-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:'Cormorant Garamond';
+    src: url(/fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf);
+  }
+
+* {
+    margin: auto 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 4em;
+    font-family: 'Marcellus';
+    color: #ED6954;
+    padding: 30px;
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+.menu > li {
+    font-family: 'Cormorant Garamond';
+    font-size: 1.5em;
+    padding: 30px;
+}
+.menu > li:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main > p {
+    font-family: 'Cormorant Garamond';
+    font-size: 4em;
+    font-style: italic;
+    line-height: 2.5cm;
+    margin-right: 150px;
+    padding: 50px;
+}
+.portrait {
+    height: 600px;
+    margin-left: 150px;
+    padding: 50px;
+
+}
+footer {
+    height: 120px;
+    font-family: 'Cormorant Garamond';
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: #ED6954;
+    display: flex;
+}
+
+
+/* Works */
+
+.about, .works, .influences {
+    display: flex;
+    margin: 80px;
+}
+.about > p, .works > p , .influences > p {
+  margin: 50px;  
+}
+.works > img {
+    width: 500px;
+}
+
+.pic-display {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    margin: 50px;
+}
+.pic-display > img {
+    width: 400px;
+}
+
+/*influences*/
+.influences-pic{
+    width: 500px;
 }
