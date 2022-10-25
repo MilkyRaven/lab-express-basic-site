@@ -20,6 +20,11 @@ a {
     text-decoration: none;
     padding: 30px;
 }
+.inner-link {
+    font-size: 1em;
+    color: #aeb4f4;
+    padding: 0;
+}
 
 article > p {
     font-family: 'Cormorant Garamond';
@@ -77,6 +82,14 @@ nav{
 article {
     margin: 60px;
 }
+
+.video {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    margin: 30px;
+}
+
 footer {
     height: 120px;
     font-family: 'Cormorant Garamond';
